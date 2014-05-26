@@ -1,0 +1,173 @@
+@charset "utf-8";
+
+@media only screen and (min-width: 320px) and (max-width: 767px){
+
+  .content-point {
+  	display:none;
+  }
+  .content-game {
+    display:none;
+  }
+  .content-logo {
+    width:100%;
+    height:54px;
+    float:none;
+  }
+  .logo {
+    margin:auto;
+    margin-top:45px;
+    float:none;
+  }
+  .content-name {
+    display:none;
+  }
+  .content-left {
+    width:100%;
+    margin-top:25px;
+    float:none;
+  }
+  .content-button {
+    width:245px;
+    width:247px\9;
+    margin:auto;
+    float:none;
+  }
+  .button {
+    text-align:left;
+    display:inline;
+    float:none;
+  }
+  .under-button {
+    position:absolute;
+    width:auto;
+    margin-top:3px;
+    margin-left:10px;
+    float:none;
+  }
+  .under-button ul li {
+    display:inline;
+  }
+  .button-last {
+    display:none;
+  }
+  .line {
+    width:100%;
+  }
+  .content-center {
+    margin-right:25px;
+    display:block;
+    float:none;
+  }
+  .content-load {
+    margin-top:40px;
+    float:none;
+  }
+  .content-img {
+     width:auto;
+     float:none;
+  }
+  .img {
+     width:100%;
+     margin:0;
+  }
+  .img img {
+     max-width:100%;
+     max-height:400px;
+  }
+  .img-line {
+    width:75%;
+  }
+  .img-text {
+    width:100%;
+    padding-bottom: 20px;
+  }
+  .button-game {
+    display:none;
+  }
+  .content-time {
+    display:none;
+  }
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px){
+
+  .content-game {
+    display:none;
+  }
+  .content-logo {
+    width:100%;
+    height:54px;
+  	float:none;
+  }
+  .logo {
+    margin:auto;
+    margin-top:45px;
+    float:none;
+  }
+  .content-name {
+    display:none;
+  }
+  .content-left {
+  	width:100%;
+  	margin-top:25px;
+  	float:none;
+  }
+  .content-button {
+    width:245px;
+    width:247px\9;
+    margin:auto;
+    float:none;
+  }
+  .button {
+  	text-align:left;
+  	display:inline;
+  	float:none;
+  }
+  .under-button {
+  	position:absolute;
+  	width:auto;
+  	margin-top:3px;
+    margin-left:10px;
+  	float:none;
+  }
+  .under-button ul li {
+  	display:inline;
+  }
+  .button-last {
+    display:none;
+  }
+  .line {
+    width:100%;
+  }
+  .content-center {
+    margin-right:25px;
+  	display:block;
+  	float:none;
+  }
+  .content-load {
+    margin-top:40px;
+  	float:none;
+  }
+  .content-img {
+     width:auto;
+	   float:none;
+  }
+  .img {
+     width:100%;
+     margin:0;
+  }
+  .img img {
+     max-width:100%;
+     max-height:400px;
+  }
+  .img-line {
+  	width:75%;
+  }
+  .button-game {
+  	display:none;
+  }
+  .content-time {
+    display:none;
+  }
+}

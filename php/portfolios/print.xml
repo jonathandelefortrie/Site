@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<folder>
+  <file number="1">
+    <url>immonc_a5</url>
+    <titre>immonc</titre>
+    <description>Création d'un encart publicitaire pour une passerelle immobilière en ligne au format A5, stage de troisième année de licence.</description>
+  </file>
+  <file number="2">
+    <url>immonc_a4</url>
+    <titre>immonc</titre>
+    <description>Création d'un encart publicitaire pour une passerelle immobilière en ligne au format A4, stage de troisième année de licence.</description>
+  </file>
+  <file number="3">
+    <url>atv</url>
+    <titre>art tv</titre>
+    <description>Création d'une affiche pour une chaîne de télévision artistique en ligne, projet de troisième année de licence.</description>
+  </file>
+  <file number="4">
+    <url>neologis_a5</url>
+    <titre>neologis</titre>
+    <description>Création d'un encart publicitaire pour l'agence web neologis au format A5, stage de deuxième année de licence.</description>
+  </file>
+  <file number="5">
+    <url>neologis_a4</url>
+    <titre>neologis</titre>
+    <description>Création d'un encart publicitaire pour l'agence web neologis au format A4, stage de deuxième année de licence.</description>
+  </file>
+  <file number="6">
+    <url>fleuve</url>
+    <titre>bordeaux fête du fleuve</titre>
+    <description>Création d'une affiche pour un évènement lié à la ville de bordeaux, sujet de deuxième année de licence.</description>
+  </file>
+  <file number="7">
+    <url>triathlon</url>
+    <titre>triathlon des pins</titre>
+    <description>Création d'une affiche pour un évènement sportif, sujet de deuxième année de licence.</description>
+  </file>
+  <file number="8">
+    <url>cinema</url>
+    <titre>on dit que ...</titre>
+    <description>Création d'une affiche de cinéma, sujet de deuxième année de licence.</description>
+  </file>
+  <file total="9"></file>
+</folder>

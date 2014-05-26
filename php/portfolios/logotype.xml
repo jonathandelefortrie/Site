@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<folder>
+  <file number="1">
+    <url>mapster</url>
+    <titre>mapster</titre>
+    <description>Création d'un logo pour une plateforme professionnel de webmarketing, projet de dernière année de master.</description>
+  </file>
+  <file number="2">
+    <url>art_community</url>
+    <titre>art community</titre>
+    <description>Création d'un logo pour un site communautaire artistique, projet de première année de master.</description>
+  </file>
+  <file number="3">
+    <url>septieme_sens</url>
+    <titre>septieme sens</titre>
+    <description>Création d'un logo pour un shop en ligne spécialisé dans la vente de lingerie et accessoires féminin.</description>
+  </file>
+  <file number="4">
+    <url>art_tv</url>
+    <titre>art tv</titre>
+    <description>Création d'un logo pour une chaîne de télévision artistique en ligne, projet de troisième année de licence.</description>
+  </file>
+  <file number="5">
+    <url>neo_logis</url>
+    <titre>neologis</titre>
+    <description>Refonte du logo de l'agence web neologis, stage de seconde année de licence.</description>
+  </file>
+  <file total="6"></file>
+</folder>

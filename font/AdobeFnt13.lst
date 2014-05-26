@@ -1,0 +1,83 @@
+%!Adobe-FontList 1.13
+%Locale:0x40c
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\ESTEI\Desktop\Site\Font\helvetica-neue-bold-condensed.eot
+FileModTime:1325653319
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\ESTEI\Desktop\Site\Font\helvetica-neue-bold-condensed.svg
+FileModTime:1325653319
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HelveticaNeueLTStd-BdCn
+FamilyName:Helvetica Neue LT Std
+StyleName:77 Bold Condensed
+FullName:Helvetica Neue LT Std 77 Bold Condensed
+MenuName:Helvetica Neue LT Std
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\ESTEI\Desktop\Site\Font\helvetica-neue-bold-condensed.ttf
+DataFormat:sfntData
+FileLength:43964
+FileModTime:1325653319
+WeightClass:700
+WidthClass:3
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\ESTEI\Desktop\Site\Font\helvetica-neue-bold-condensed.woff
+FileModTime:1325653319
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\ESTEI\Desktop\Site\Font\helvetica-neue-medium-condensed.eot
+FileModTime:1325653319
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\ESTEI\Desktop\Site\Font\helvetica-neue-medium-condensed.svg
+FileModTime:1325653319
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:HelveticaNeueLTStd-MdCn
+FamilyName:Helvetica Neue LT Std
+StyleName:67 Medium Condensed
+FullName:Helvetica Neue LT Std 67 Medium Condensed
+MenuName:Helvetica Neue LT Std
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\ESTEI\Desktop\Site\Font\helvetica-neue-medium-condensed.ttf
+DataFormat:sfntData
+FileLength:45584
+FileModTime:1325653319
+WeightClass:500
+WidthClass:3
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\ESTEI\Desktop\Site\Font\helvetica-neue-medium-condensed.woff
+FileModTime:1325653319
+%EndFont
+

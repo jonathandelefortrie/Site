@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<folder>
+  <file number="1">
+      <url>vaisseau</url>
+      <href>lien_a</href>
+      <lien>vaisseau</lien>
+      <titre>vaisseau</titre>
+      <description>Jeux en javascript / html5 avec utilisation du canvas et du localstorage, sujet temps limité en première année de master.</description>
+  </file> 
+  <file number="2">
+      <url>voiture</url>
+      <href>lien_b</href>
+      <lien>voiture.swf</lien>
+      <titre>voiture</titre>
+      <description>Jeux en action script 2 utilisant les principales fonctionnalitées des déplacements en 2D, sujet temps limité en troisième année de licence.</description>
+  </file>
+  <file number="3">
+      <url>canette</url>
+      <href>lien_c</href>
+      <lien>canette.swf</lien>
+      <titre>canette</titre>
+      <description>Interface originale mélangeant la 3D et le flash, secouez la canette, sujet temps limité en troisième année de licence.</description>
+  </file>
+  <file total="4"></file>
+</folder>
