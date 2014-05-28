@@ -1,0 +1,144 @@
+body {
+    width:100%;
+    height:100%;
+    padding:0px;
+    margin:0px;
+	font-family:Arial,Helvetica,sans-serif;
+	background-image:url(../img/background.jpg);
+	background-position:center;
+	color:#fff;
+}
+.content {
+    width:972px;
+    margin:auto;
+}
+.header {
+	width:968px;
+	height:45px;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	border-bottom: 1px solid;
+	border-color:transparent;
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+			border-radius: 2px;
+	background-image:url(../img/bg_border.png);
+	display:block;
+	float:left;
+}
+.content-header {
+	width:960px;
+	height:41px;
+	margin-left:4px;
+	background-image:url(../img/head_header.png);
+	display:block;
+	float:left;
+}
+.middle {
+	width:960px;
+	margin-top:130px;
+	border: 5px solid;
+	border-color:transparent;
+	background-image:url(../img/bg_border.png);
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+			border-radius: 2px;
+	display:block;
+	float:left;
+}
+.content-jeux {
+	width:952px;
+	height:503px;
+	border: 4px solid #000;
+	-webkit-border-radius: 2px;
+	   -moz-border-radius: 2px;
+			border-radius: 2px;
+	display:block;
+	float:left;
+}
+.top {
+	width:952px;
+	height:41px;
+	border-bottom: 4px solid #000;
+	background-image:url(../img/head.png);
+	display:block;
+	float:left;
+}
+.title-top {
+	width:100%;
+	margin-top:10px;
+	margin-left:15px;
+	display:block;
+	float:left;
+}
+.formulaire {
+	width:450px;
+	margin-top:8px;
+	margin-left:10px;
+	display:none;
+	float:left;
+}
+.replay {
+	width:120px;
+	height:33px;
+	margin-top:4px;
+	margin-right:4px;
+	background-image:url(../img/head_bt.png);
+	cursor:pointer;
+	display:inline-block;
+	float:right;
+}
+.title-replay {
+	width:100%;
+	margin-top:6px;
+	text-align:center;
+	display:block;
+	float:left;
+}
+.game {
+	border:4px solid;
+	border-color:transparent;
+	display:block;
+	float:left;
+}
+.title {
+	width:100%;
+	height:27px;
+	margin-top:-4px;
+	text-align:center;
+	background-image:url(../img/head_score.png);
+	display:block;
+	float:left;
+}
+.title-text {
+	width:100%;
+	margin-top:3px;
+	display:block;
+	float:left;
+}
+.line {
+	width:100%;
+	height:14px;
+	padding:1px;
+	text-align:center;
+	font-size:12px;
+	display:block;
+	float:left;
+}
+.text_score {
+	width:100%;
+	text-align:center;
+	font-size:13px;
+	display:block;
+	float:left;
+}
+.score {
+	width:140px;
+	height:219px;
+	margin-top:4px;
+	border-top:4px solid;
+	border-color:transparent;
+	background-image:url(../img/bg_score.png);
+	display:inline-block;
+	float:left;
+}
