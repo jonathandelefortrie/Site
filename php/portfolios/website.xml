@@ -1,56 +1,68 @@
 <?xml version="1.0" encoding="utf-8"?>
 <folder>
-  <!--<file number="1">
-      <url>mapster</url>
-      <lien>http://dev.mapster.fr/</lien>
-      <titre>mapster</titre>
-      <description>Création d'une application web et mobile permettant la création et diffusion de coupon promotionnel utilisant la géolocalité, projet de dernière année de master.</description>
-  </file>-->
   <file number="1">
-      <url>top_vingt</url>
-      <titre>top vingt</titre>
-      <description>Création d'un site web en javascript / html5 permettant d'afficher le top 20 twitter des institutions françaises, stage de première année de master.</description>
+      <url>fleep</url>
+      <lien>http://fleep.co/</lien>
+      <titre>fleep</titre>
+      <description>Streaming mobile/website platform using flex mobile and laravel 4, personnal project.</description>
   </file>
   <file number="2">
-      <url>art_community</url>
-      <lien>http://www.artcommunity.fr/a.php</lien>
-      <titre>art community</titre>
-      <description>Création d'un site communautaire destiné aux artistes, développer from scratch en php, projet de première année de master.</description>
+      <url>pioldress</url>
+      <lien>http://pioldress.com/</lien>
+      <titre>pioldress</titre>
+      <description>Customized dress platform using laravel 3 framework, back and front end developer at makeable.</description>
   </file>
   <file number="3">
-      <url>roue_fortune</url>
-      <titre>roue de la fortune</titre>
-      <description>Création d'un jeu évènementiel en action script 3 et php pour l'agence web dans laquel j'ai fais mon stage de troisième année de licence.</description>
+      <url>mapster</url>
+      <!--<lien>http://www.mapster.fr/</lien>-->
+      <titre>mapster</titre>
+      <description>Couponing platform using web marketing strategy using symfony 2 and android, project last-year of master.</description>
   </file>
   <file number="4">
-      <url>francoise_lazes</url>
-      <titre>françoise lazes</titre>
-      <description>Création d'un site vitrine en xhtml, php et flash pour la galerie personnel du sculpteur Françoise Lazes.</description>
+      <url>top_vingt</url>
+      <titre>top vingt</titre>
+      <description>Javascript / html5 website allowing to display top 20 twitter of "institutions françaises", internship first-year of master.</description>
   </file>
   <file number="5">
-      <url>art_tv</url>
-      <titre>art tv</titre>
-      <description>Création d'un site en full flash action script 2 pour une chaîne de télévision artistique en ligne, projet de troisième année de licence.</description>
+      <url>art_community</url>
+      <!--<lien>http://www.artcommunity.fr/</lien>-->
+      <titre>art community</titre>
+      <description>Art community site, develop from scratch with php, project first-year of master.</description>
   </file>
   <file number="6">
-      <url>neologis</url>
-      <titre>neologis</titre>
-      <description>Création d'une maquette pour l'agence web neologis, stage de troisième année de licence.</description>
+      <url>roue_fortune</url>
+      <titre>roue de la fortune</titre>
+      <description>Creating a event game using actionscript 3 and php, internship third-year bachelor.</description>
   </file>
   <file number="7">
-      <url>arbe</url>
-      <titre>arbe</titre>
-      <description>Création d'une maquette pour une entreprise de btp basée en Nouvelle-Calédonie, stage de troisième année de licence.</description>
+      <url>francoise_lazes</url>
+      <titre>françoise lazes</titre>
+      <description>Creating a show case site with html, php and flash for the sculptor Françoise Lazes.</description>
   </file>
   <file number="8">
-      <url>big_day_in</url>
-      <titre>big day in</titre>
-      <description>Création d'un site évènementiel avec une marque de boisson énergétique au choix en xhtml et flash, sujet de deuxième année de licence.</description>
+      <url>art_tv</url>
+      <titre>art tv</titre>
+      <description>Creating a full flash a in actionscript 2 for an art television online, project third-year of bachelor.</description>
   </file>
   <file number="9">
+      <url>neologis</url>
+      <titre>neologis</titre>
+      <description>Creating design for the web agency neologis, internship third-year bachelor.</description>
+  </file>
+  <file number="10">
+      <url>arbe</url>
+      <titre>arbe</titre>
+      <description>Creating design for a building company based in New Caledonia, internship third-year bachelor.</description>
+  </file>
+  <file number="11">
+      <url>big_day_in</url>
+      <titre>big day in</titre>
+      <description>Creating an event website with a energetique drink partner using xhtml and flash, work second-year bachelor.</description>
+  </file>
+  <file number="12">
       <url>room_freak</url>
       <titre>room freak</titre>
-      <description>Création d'un site inspirer d'un poême au choix en xhtml et css2, sujet de deuxième année de licence.</description>
+      <description>Creating a website inspired by a poetry with xhtml and css2, work second-year bachelor.</description>
   </file>
-  <file total="10"></file>
+  <file total="13"></file>
 </folder>

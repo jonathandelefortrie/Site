@@ -4,22 +4,29 @@
       <url>vaisseau</url>
       <href>lien_a</href>
       <lien>vaisseau</lien>
-      <titre>vaisseau</titre>
-      <description>Jeux en javascript / html5 avec utilisation du canvas et du localstorage, sujet temps limité en première année de master.</description>
-  </file> 
+      <titre>ship</titre>
+      <description>Game javascript / html5 using canvas and localstorage, limited time work during the first year of master.</description>
+  </file>
   <file number="2">
-      <url>voiture</url>
+      <url>divide</url>
       <href>lien_b</href>
-      <lien>voiture.swf</lien>
-      <titre>voiture</titre>
-      <description>Jeux en action script 2 utilisant les principales fonctionnalitées des déplacements en 2D, sujet temps limité en troisième année de licence.</description>
-  </file>
+      <lien>divide</lien>
+      <titre>divide</titre>
+      <description>Game javascript / html5 using canvas, limited time test for a job interview.</description>
+  </file> 
   <file number="3">
-      <url>canette</url>
+      <url>voiture</url>
       <href>lien_c</href>
-      <lien>canette.swf</lien>
-      <titre>canette</titre>
-      <description>Interface originale mélangeant la 3D et le flash, secouez la canette, sujet temps limité en troisième année de licence.</description>
+      <lien>voiture.swf</lien>
+      <titre>car</titre>
+      <description>Game actionscript 2 using pricipal fonctionalities of 2D displacement, limited time work during the last year of bachelor.</description>
   </file>
-  <file total="4"></file>
+  <file number="4">
+      <url>canette</url>
+      <href>lien_d</href>
+      <lien>canette.swf</lien>
+      <titre>bottle</titre>
+      <description>Original interface mixing 3D and flash, shake the bottle, limited time work during the last year of bachelor.</description>
+  </file>
+  <file total="5"></file>
 </folder>

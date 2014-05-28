@@ -26,18 +26,18 @@
 }
 /* Document */
 body {
-  width:100%;
-  height:100%;
+  	width:100%;
+  	height:100%;
 	color:#1d1d1b;
 	-o-font-smoothing:antialiased;
 	-moz-font-smoothing:antialiased;
 	-khtml-font-smoothing:antialiased;
 	-webkit-font-smoothing:antialiased;
 	font-smooth:always;
-	overflow-x:hidden;
 	word-spacing:0.000em;
 	margin:0px;
 	padding:0px;
+	position:relative;
 }
 h1 {
 	margin:0;
@@ -55,23 +55,21 @@ h1 {
 }
 /* Game */
 .content-game {
-  width:100%;
-  height:100%;
+  	width:100%;
 	position:absolute;
+	overflow: hidden;
+	top:0;
+	left: 0;
 }
 iframe {
   width:100%;
   height:100%;
   border:none;
 }
-.game {
-  width:100%;
-  height:100%;
-	position:absolute;
-}
 .manuel {
   width:700px;
   margin:auto;
+  display:none;
 }
 .title-manuel {
   width:100%;
@@ -100,6 +98,8 @@ iframe {
   width:100%;
   height:100%;
   position:absolute;
+  top:0;
+  left:0;
 }
 /* Top */
 .content-top {
@@ -146,12 +146,11 @@ iframe {
 	width:125px;
 	height:auto;
 	display:inline-block;
-	float:left;
+	vertical-align: top;
 }
 .content-button {
 	width:100%;
 	display:block;
-	float:left;
 }
 .button {
 	width:100%;
@@ -162,7 +161,6 @@ iframe {
 	letter-spacing:0.087em;
 	font-family :'Helvetica-Neue-Medium-Condensed';
 	display:block;
-	float:left;
 }
 .button a {
   cursor:pointer;
@@ -176,7 +174,7 @@ iframe {
 	color:#32859e;
 }
 .button-last {
-	width:87px;
+	width:86px;
 	margin-top:10px;
 	text-align:left;
 	display:block;
@@ -213,7 +211,7 @@ iframe {
 	color:#5c5b5b;
 }
 .line {
-	width:87px;
+	width:86px;
 	height:1px;
 	margin-top:10px;
 	background-color:#d2d2d1;
@@ -244,7 +242,7 @@ iframe {
 .content-center {
 	margin-left:25px;
 	display:inline-block;
-	float:left;
+	vertical-align: top;
 }
 .content-load { 
 	width:100%;
@@ -272,23 +270,32 @@ iframe {
 /* Bottom */
 .content-bottom {
 	display:block;
-	float:right;
+	width: 100%;
+	position: fixed;
+	bottom: 30px;
 }
-.button-game {
-  width:53px;
-	height:35px;
-	cursor:pointer;
-	bottom:38px;
-	right:38px;
-	position :absolute;
+.content-bottom ul {
+	padding: 0;
+	margin: 0;
+	float:left;
+	width:125px;
 }
-.button-site {
-  width:53px;
-	height:35px;
-	top:38px;
-	left:38px;
-	cursor:pointer;
-	position :absolute;
+.content-bottom ul li {
+	display:inline-block;
+	vertical-align: top;
+	list-style: none;
+	text-align: center;
+	float: right;
+	padding-top: 5px;
+	padding-left: 14px;
+}
+.content-bottom ul li a {
+	display:block;
+}
+.content-bottom ul li a img {
+	display:block;
+	width: 20px;
+	margin: auto;
 }
 .content-img { /***portfolios***/
 	width:80%;
@@ -465,13 +472,73 @@ iframe {
 	float:left;
 }
 .reponse-acquis {
+	display:block;
+	overflow: hidden;
+}
+.reponse-acquis ul {
+	width:49%;
+	display:inline-block;
+	margin: 0;
+	padding: 0;
+}
+.reponse-acquis ul li {
+	list-style: none;
+	display:block;
+}
+.reponse-acquis ul li p {
+	margin:0;
+	display: inline-block;
+	white-space: nowrap;
+	cursor: pointer;
+}
+.reponse-acquis ul:first-child {
+	float: left;
+}
+.reponse-acquis ul:first-child li p:first-child {
+	width: 25%;
 	margin-top:10px;
 	font-size:11.5px;
 	color:#5c5b5b;
 	letter-spacing:1px;
 	font-family :'Helvetica-Neue-Medium-Condensed';
-	display:block;
-	float:left;
+}
+.reponse-acquis ul:first-child li p:last-child {
+	width: 75%;
+	height: 10px;
+	background-color: #d2d2d1;
+}
+.reponse-acquis ul:last-child {
+	float: right;
+}
+.reponse-acquis ul:last-child li p:first-child {
+	width: 75%;
+	height: 10px;
+	background-color: #d2d2d1;
+}
+.reponse-acquis ul:last-child li p:last-child {
+	width: 25%;
+	margin-top:10px;
+	font-size:11.5px;
+	color:#5c5b5b;
+	letter-spacing:1px;
+	font-family :'Helvetica-Neue-Medium-Condensed';
+	text-align: right;
+}
+.reponse-acquis ul li p span {
+	height: 100%;
+	display: block;
+	background-color: #32859E;
+	float: right;
+	-webkit-transition: all 1s ease-out 0s;
+    -moz-transition: all 1s ease-out 0s;
+    -o-transition: all 1s ease-out 0s;
+    transition: all 1s ease-out 0s;
+}
+.reponse-acquis ul li p:hover span {
+	width: 0% !important;
+}
+.reponse-acquis ul:last-child li p span {
+	float: left;
 }
 .reponse-mail {
 	margin-top:10px;
@@ -503,7 +570,24 @@ iframe {
 	text-decoration:none;
 	color:#32859e;
 }
+.lien_d {
+	text-decoration:none;
+	color:#32859e;
+}
 .lien {
 	text-decoration:none;
 	color:#32859e;
+}
+
+.flip-container {
+	perspective: 1000;
+}
+
+.flip-container:hover .flipper, .flip-container.hover .flipper {
+	transform: rotateY(180deg);
+}
+
+.flipper {
+	transition: 0.6s;
+	transform-style: preserve-3d;
 }

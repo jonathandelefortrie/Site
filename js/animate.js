@@ -18,29 +18,31 @@ function Init(){
 function coord_x(){
 	var tab_x = new Array();
 		tab_x[0] = 0 * largeur / 100;
-		tab_x[1] = 11 * largeur / 100;
-		tab_x[2] = 22 * largeur / 100;
-		tab_x[3] = 33 * largeur / 100;
-		tab_x[4] = 44 * largeur / 100;
-		tab_x[5] = 55 * largeur / 100;
-		tab_x[6] = 66 * largeur / 100;
+		tab_x[1] = 7 * largeur / 100;
+		tab_x[2] = 18 * largeur / 100;
+		tab_x[3] = 30 * largeur / 100;
+		tab_x[4] = 42 * largeur / 100;
+		tab_x[5] = 54 * largeur / 100;
+		tab_x[6] = 65 * largeur / 100;
 		tab_x[7] = 77 * largeur / 100;
-		tab_x[8] = 88 * largeur / 100;
-		tab_x[9] = 100 * largeur / 100;
+		tab_x[8] = 86 * largeur / 100;
+		tab_x[9] = 95 * largeur / 100;
+		tab_x[10] = 100 * largeur / 100;
 	return tab_x;
 }
 function coord_y(){
 	var tab_y = new Array();
 		tab_y[0] = 400;
 		tab_y[1] = 360;
-		tab_y[2] = 310;
+		tab_y[2] = 320;
 		tab_y[3] = 300;
 		tab_y[4] = 245;
 		tab_y[5] = 210;
 		tab_y[6] = 155;
 		tab_y[7] = 115;
-		tab_y[8] = 40;
-		tab_y[9] = 0;
+		tab_y[8] = 60;
+		tab_y[9] = 30;
+		tab_y[10] = 0;
 	return tab_y;
 }
 
@@ -87,15 +89,16 @@ function getText(startY){
 	var co_y = new_y.slice();
 
 	switch(startY) {
-		case co_y[1] : title = "ann&eacute;e pr&eacute;paratoire licence"; text = "Pratique des arts appliqués et plastiques, apprentissage de photoshop, illustrator, indesign ainsi que des cours de communication.";break;
-		case co_y[2] : title = "ann&eacute;e pr&eacute;paratoire licence"; text = "Pratique des arts appliqués et plastiques, apprentissage du html, javascript, flash, 3D ainsi que des cours de communication.";break;
-		case co_y[3] : title = "stage en entreprise"; text = "Au sein de l'agence web neologis en tant que graphiste d'une durée de un mois.";break;
-		case co_y[4] : title = "licence en infographie"; text = "Apprentissage de l'action script 2 et de la 3D ainsi que des cours de communication.";break;
-		case co_y[5] : title = "stage en entreprise"; text = "Au sein de l'agence web neologis en tant qu'int&eacute;grateur d'une durée de trois mois.";break;
-		case co_y[6] : title = "ann&eacute;e pr&eacute;paratoire master"; text = "Apprentissage du php, action script 3, javascript/html5 et approche de toutes les technologies liées aux développement web.";break;
-		case co_y[7] : title = "stage en entreprise"; text = "Au sein de l'agence web La Netscouade en tant que développeur front end.";break;
-		case co_y[8] : title = "master en développement web"; text = "Maîtrise du mvc, symfony, flex et apprentissage du développement mobile android-sdk, flex air.";break;
-		default : title = "parcours"; text = "Parfois les graphiques valent mieux que les mots.";
+		case co_y[1] : title = "preparatory year of bachelor"; text = "Practical and applied arts, learning photoshop, illustrator, indesign and communication courses.";break;
+		case co_y[2] : title = "preparatory year of bachelor"; text = "Practical and applied arts, learning html, javascript, flash, 3D and communication courses.";break;
+		case co_y[3] : title = "internship"; text = "Within the web agency Neologis as a graphic designer for a period of one month.";break;
+		case co_y[4] : title = "bachelor of computer graphics"; text = "Learning actionscript 2, 3D and communication courses.";break;
+		case co_y[5] : title = "internship"; text = "Within the web agency Neologis as an integrator for a period of three months.";break;
+		case co_y[6] : title = "preparatory year of master"; text = "Learning php, actionscript 3 and javascript/html5 approach to all technologies related to web development.";break;
+		case co_y[7] : title = "internship"; text = "In the web agency LaNetscouade as front end developer specialized in data visualisation and UX advisor.";break;
+		case co_y[8] : title = "master of computer science"; text = "Control of the MVC paradigm through Symfony 2 and learning mobile development with android-sdk and flex air.";break;
+		case co_y[9] : title = "internship"; text = "In the web agency Makeable as front developer specialized in interactive content, I finished this experience like a back end developer focus on a customized dress platform in Laravel 3 during 6 month.";break;
+		default : title = "career"; text = "Sometimes the graphics are better than words.";
 	}
   	$('#img-title').html(title);
  	$('#img-text').html(text);
@@ -153,7 +156,7 @@ function drawLine(svg){
 	var co_y = new_y.slice();
 	
 	var lineGroup = svg.group(null, 'lineGroup');
-	svg.polyline(lineGroup, [[co_x[0], co_y[0]],[co_x[1], co_y[1]],[co_x[2], co_y[2]], [co_x[3], co_y[3]], [co_x[4], co_y[4]], [co_x[5], co_y[5]], [co_x[6], co_y[6]], [co_x[7], co_y[7]], [co_x[8], co_y[8]], [co_x[9], co_y[9]]],{fill:'none', stroke:'#d2d2d1', strokeWidth:1});
+	svg.polyline(lineGroup, [[co_x[0], co_y[0]],[co_x[1], co_y[1]],[co_x[2], co_y[2]], [co_x[3], co_y[3]], [co_x[4], co_y[4]], [co_x[5], co_y[5]], [co_x[6], co_y[6]], [co_x[7], co_y[7]], [co_x[8], co_y[8]], [co_x[9], co_y[9]], [co_x[10], co_y[10]]],{fill:'none', stroke:'#d2d2d1', strokeWidth:1});
 	
 	for(var i=1; i<total; i++){
 		var cycleGroup = svg.group(null, 'cycleGroup_o'+i);

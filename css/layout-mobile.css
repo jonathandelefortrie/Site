@@ -27,10 +27,11 @@
     float:none;
   }
   .content-button {
-    width:245px;
-    width:247px\9;
+    width:auto;
     margin:auto;
     float:none;
+    display:table;
+    position:relative;
   }
   .button {
     text-align:left;
@@ -39,10 +40,16 @@
   }
   .under-button {
     position:absolute;
-    width:auto;
-    margin-top:3px;
-    margin-left:10px;
+    width:100%;
+    margin:0;
+    margin-top: 20px;
     float:none;
+  }
+  .under-button ul {
+    margin:auto;
+    display:table;
+    width:auto;
+    padding: 0;
   }
   .under-button ul li {
     display:inline;
@@ -81,11 +88,8 @@
     width:100%;
     padding-bottom: 20px;
   }
-  .button-game {
-    display:none;
-  }
-  .content-time {
-    display:none;
+  .content-bottom {
+    display: none;
   }
 
 }
@@ -114,10 +118,11 @@
   	float:none;
   }
   .content-button {
-    width:245px;
-    width:247px\9;
+    width:auto;
     margin:auto;
     float:none;
+    display:table;
+    position:relative;
   }
   .button {
   	text-align:left;
@@ -126,10 +131,16 @@
   }
   .under-button {
   	position:absolute;
-  	width:auto;
-  	margin-top:3px;
-    margin-left:10px;
+  	width:100%;
+    margin:0;
+    margin-top: 20px;
   	float:none;
+  }
+  .under-button ul {
+    margin:auto;
+    display:table;
+    width:auto;
+    padding: 0;
   }
   .under-button ul li {
   	display:inline;
@@ -164,10 +175,7 @@
   .img-line {
   	width:75%;
   }
-  .button-game {
-  	display:none;
-  }
-  .content-time {
-    display:none;
+  .content-bottom {
+    display: none;
   }
 }

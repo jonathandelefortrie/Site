@@ -19,14 +19,19 @@ function onLoad(location,target){
   			$(".point").delay(500).fadeTo(1000, 100);
   			$(".img").delay(500).fadeTo(1000, 100);
   			$(".lightbox").colorbox({rel:'lightbox'});
-  			$(".lien_c").popupWindow({
+  			$(".lien_d").popupWindow({
   				height:650,
   				width:900,
   				centerBrowser:1
   			});
-  			$(".lien_b").popupWindow({
+  			$(".lien_c").popupWindow({
   				height:450,
   				width:450,
+  				centerBrowser:1
+  			});
+  			$(".lien_b").popupWindow({
+  				height:500,
+  				width:500,
   				centerBrowser:1
   			});
   			$(".lien_a").popupWindow({

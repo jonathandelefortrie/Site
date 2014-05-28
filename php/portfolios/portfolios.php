@@ -43,7 +43,7 @@ foreach ($element as $nodes) {
    }	
 }
 if($href == "") $href = "lien";
-if($lien != "") $text = "&nbsp;&nbsp;cliquez ici";
+if($lien != "") $text = "&nbsp;&nbsp;click here";
 $numMaxi = $numTotal - 1;
 $div = Array();
 for($i = 1 ; $i < $numTotal; $i++) {

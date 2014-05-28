@@ -24,16 +24,16 @@ $('#form-mail').live('submit',function(){
 			email.addClass("correct");
 	      	return true;
 	    }
-	    else if(a === undefined || a == null || a === "" || a === "Votre email n'est pas renseigné !"){
+	    else if(a === undefined || a == null || a === "" || a === "Your email is not filled !"){
 	    	email.removeClass("correct");
 	    	email.addClass("error");
-	    	email.val("Votre email n'est pas renseigné !");
+	    	email.val("Your email is not filled !");
 			return false;
 	    }
 	    else{
 			email.removeClass("correct");
 			email.addClass("error");
-			email.val("Votre mail est invalide !");
+			email.val("Your email is invalid !");
 			return false;
 		}
 	}
@@ -49,16 +49,16 @@ $('#form-mail').live('submit',function(){
 			familyname.addClass("correct");
 	        return true;
 	    }
-	    else if(b === undefined || b == null || b === "" || b === "Votre nom n'est pas renseigné !"){
+	    else if(b === undefined || b == null || b === "" || b === "Your lastname is not specified !"){
 	     	familyname.removeClass("correct");
 			familyname.addClass("error");
-	    	familyname.val("Votre nom n'est pas renseigné !");
+	    	familyname.val("Your lastname is not specified !");
 			return false;
 	    }
 		else{
 			familyname.removeClass("correct");
 			familyname.addClass("error");
-			familyname.val("Votre nom est invalide !");
+			familyname.val("Your lastname is invalid !");
 			return false;
 		}
 	}
@@ -74,16 +74,16 @@ $('#form-mail').live('submit',function(){
 			firstname.addClass("correct");
 	        return true;
 	    }
-	    else if(c === undefined || c == null || c === "" || c === "Votre prénom n'est pas renseigné !"){
+	    else if(c === undefined || c == null || c === "" || c === "Your firstname is not specified !"){
 	     	firstname.removeClass("correct");
 			firstname.addClass("error");
-	    	firstname.val("Votre prénom n'est pas renseigné !");
+	    	firstname.val("Your firstname is not specified !");
 			return false;
 	    }
 		else{
 			firstname.removeClass("correct");
 			firstname.addClass("error");
-			firstname.val("Votre prénom est invalide !");
+			firstname.val("Your firstname is invalid !");
 			return false;
 		}
 	}
@@ -99,16 +99,16 @@ $('#form-mail').live('submit',function(){
 			subject.addClass("correct");
 	        return true;
 	    }
-	    else if(d === undefined || d == null || d === "" || d === "Renseigné l'object de votre email !"){
+	    else if(d === undefined || d == null || d === "" || d === "Provided the object of your email !"){
 	     	subject.removeClass("correct");
 			subject.addClass("error");
-	    	subject.val("Renseigné l'object de votre email !");
+	    	subject.val("Provided the object of your email !");
 			return false;
 	    }
 		else{
 			subject.removeClass("correct");
 			subject.addClass("error");
-			subject.val("L'object de votre email est invalide !");
+			subject.val("The object of your email is invalid !");
 			return false;
 		}
 	}
@@ -122,7 +122,7 @@ $('#form-mail').live('submit',function(){
 
 			message.removeClass("text-correct");
 			message.addClass("error");
-			message.val("Votre message est trop court ...");
+			message.val("Your message is too short ...");
 
 			message.delay(3500).queue(function(){
 				message.val("");
@@ -137,7 +137,7 @@ $('#form-mail').live('submit',function(){
 
 			message.removeClass("text-correct");
 			message.addClass("error");
-			message.val("Vous devez adresser un message pour être sur d'obtenir une reponse concrète ...");
+			message.val("You must send a message to be sure to get a concrete answer ...");
 
 			message.delay(3500).queue(function(){
 				message.val("");
