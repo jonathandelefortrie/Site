@@ -1,1 +1,1 @@
-Personnal website create from scratch with php and xml datas
+Personnal website with php and xml
